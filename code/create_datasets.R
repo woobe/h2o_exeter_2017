@@ -27,6 +27,7 @@ fwrite(d_test, file = "./data/regression/house_price_test.csv")
 
 
 wp_raw = fread("https://archive.ics.uci.edu/ml/machine-learning-databases/water-treatment/water-treatment.data")
+# wp_raw = fread("./data/clustering/water-treatment.data")
 
 wp_names = c("name",
              "Q-E",
@@ -49,10 +50,10 @@ wp_names = c("name",
              "PH-D",
              "DBO-D",
              "DQO-D",
-             "SS-P",
-             "SSV-P",
-             "SED-P",
-             "COND-P",
+             "SS-D",
+             "SSV-D",
+             "SED-D",
+             "COND-D",
 
              "PH-S",
              "DBO-S",
